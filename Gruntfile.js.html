@@ -1,0 +1,603 @@
+<!DOCTYPE html><html><head><title>Gruntfile.js</title><meta http-equiv="Content-Type" content="text/html" charset="UTF-8"><link rel="stylesheet" media="all" href="./docco.css"></head><body><div id="container"><div id="background"></div><div id="jump_to">Jump To &hellip;<div id="jump_wrapper"><div id="jump_page"><a href="./index.html" class="source"><span class="file_name">README</span></a><a href="./Gruntfile.js.html" class="source selected"><span class="base_path">. / </span><span class="file_name">Gruntfile.js</span></a><a href="./client/app/about/about.controller.js.html" class="source "><span class="base_path">client / app / about / </span><span class="file_name">about.controller.js</span></a><a href="./client/app/about/about.controller.spec.js.html" class="source "><span class="base_path">client / app / about / </span><span class="file_name">about.controller.spec.js</span></a><a href="./client/app/about/about.js.html" class="source "><span class="base_path">client / app / about / </span><span class="file_name">about.js</span></a><a href="./client/app/account/account.js.html" class="source "><span class="base_path">client / app / account / </span><span class="file_name">account.js</span></a><a href="./client/app/account/login/login.controller.js.html" class="source "><span class="base_path">client / app / account / login / </span><span class="file_name">login.controller.js</span></a><a href="./client/app/account/settings/settings.controller.js.html" class="source "><span class="base_path">client / app / account / settings / </span><span class="file_name">settings.controller.js</span></a><a href="./client/app/account/signup/signup.controller.js.html" class="source "><span class="base_path">client / app / account / signup / </span><span class="file_name">signup.controller.js</span></a><a href="./client/app/admin/admin.controller.js.html" class="source "><span class="base_path">client / app / admin / </span><span class="file_name">admin.controller.js</span></a><a href="./client/app/admin/admin.js.html" class="source "><span class="base_path">client / app / admin / </span><span class="file_name">admin.js</span></a><a href="./client/app/app.js.html" class="source "><span class="base_path">client / app / </span><span class="file_name">app.js</span></a><a href="./client/app/cart/cart.controller.js.html" class="source "><span class="base_path">client / app / cart / </span><span class="file_name">cart.controller.js</span></a><a href="./client/app/cart/cart.controller.spec.js.html" class="source "><span class="base_path">client / app / cart / </span><span class="file_name">cart.controller.spec.js</span></a><a href="./client/app/cart/cart.factory.js.html" class="source "><span class="base_path">client / app / cart / </span><span class="file_name">cart.factory.js</span></a><a href="./client/app/cart/cart.js.html" class="source "><span class="base_path">client / app / cart / </span><span class="file_name">cart.js</span></a><a href="./client/app/catalog/catalog.controller.js.html" class="source "><span class="base_path">client / app / catalog / </span><span class="file_name">catalog.controller.js</span></a><a href="./client/app/catalog/catalog.controller.spec.js.html" class="source "><span class="base_path">client / app / catalog / </span><span class="file_name">catalog.controller.spec.js</span></a><a href="./client/app/catalog/catalog.js.html" class="source "><span class="base_path">client / app / catalog / </span><span class="file_name">catalog.js</span></a><a href="./client/app/main/main.controller.js.html" class="source "><span class="base_path">client / app / main / </span><span class="file_name">main.controller.js</span></a><a href="./client/app/main/main.controller.spec.js.html" class="source "><span class="base_path">client / app / main / </span><span class="file_name">main.controller.spec.js</span></a><a href="./client/app/main/main.js.html" class="source "><span class="base_path">client / app / main / </span><span class="file_name">main.js</span></a><a href="./client/app/product/product.controller.js.html" class="source "><span class="base_path">client / app / product / </span><span class="file_name">product.controller.js</span></a><a href="./client/app/product/product.controller.spec.js.html" class="source "><span class="base_path">client / app / product / </span><span class="file_name">product.controller.spec.js</span></a><a href="./client/app/product/product.js.html" class="source "><span class="base_path">client / app / product / </span><span class="file_name">product.js</span></a><a href="./client/app/vendor/vendor.controller.js.html" class="source "><span class="base_path">client / app / vendor / </span><span class="file_name">vendor.controller.js</span></a><a href="./client/app/vendor/vendor.controller.spec.js.html" class="source "><span class="base_path">client / app / vendor / </span><span class="file_name">vendor.controller.spec.js</span></a><a href="./client/app/vendor/vendor.js.html" class="source "><span class="base_path">client / app / vendor / </span><span class="file_name">vendor.js</span></a><a href="./client/components/auth/auth.service.js.html" class="source "><span class="base_path">client / components / auth / </span><span class="file_name">auth.service.js</span></a><a href="./client/components/auth/user.service.js.html" class="source "><span class="base_path">client / components / auth / </span><span class="file_name">user.service.js</span></a><a href="./client/components/auth/vendor/vendor.service.js.html" class="source "><span class="base_path">client / components / auth / vendor / </span><span class="file_name">vendor.service.js</span></a><a href="./client/components/auth/vendor/vendor.service.spec.js.html" class="source "><span class="base_path">client / components / auth / vendor / </span><span class="file_name">vendor.service.spec.js</span></a><a href="./client/components/modal/modal.service.js.html" class="source "><span class="base_path">client / components / modal / </span><span class="file_name">modal.service.js</span></a><a href="./client/components/mongoose-error/mongoose-error.directive.js.html" class="source "><span class="base_path">client / components / mongoose-error / </span><span class="file_name">mongoose-error.directive.js</span></a><a href="./client/components/navbar/navbar.controller.js.html" class="source "><span class="base_path">client / components / navbar / </span><span class="file_name">navbar.controller.js</span></a><a href="./client/components/socket/socket.io.js.html" class="source "><span class="base_path">client / components / socket / </span><span class="file_name">socket.io.js</span></a><a href="./client/components/socket/socket.mock.js.html" class="source "><span class="base_path">client / components / socket / </span><span class="file_name">socket.mock.js</span></a><a href="./client/components/socket/socket.service.js.html" class="source "><span class="base_path">client / components / socket / </span><span class="file_name">socket.service.js</span></a><a href="./karma.conf.js.html" class="source "><span class="base_path">. / </span><span class="file_name">karma.conf.js</span></a><a href="./protractor.conf.js.html" class="source "><span class="base_path">. / </span><span class="file_name">protractor.conf.js</span></a><a href="./server/api/amazon/index.js.html" class="source "><span class="base_path">server / api / amazon / </span><span class="file_name">index.js</span></a><a href="./server/api/amazon/product.controller.js.html" class="source "><span class="base_path">server / api / amazon / </span><span class="file_name">product.controller.js</span></a><a href="./server/api/amazon/product.model.js.html" class="source "><span class="base_path">server / api / amazon / </span><span class="file_name">product.model.js</span></a><a href="./server/api/amazon/product.socket.js.html" class="source "><span class="base_path">server / api / amazon / </span><span class="file_name">product.socket.js</span></a><a href="./server/api/amazon/product.spec.js.html" class="source "><span class="base_path">server / api / amazon / </span><span class="file_name">product.spec.js</span></a><a href="./server/api/amazonCart/index.js.html" class="source "><span class="base_path">server / api / amazonCart / </span><span class="file_name">index.js</span></a><a href="./server/api/amazonCart/product.controller.js.html" class="source "><span class="base_path">server / api / amazonCart / </span><span class="file_name">product.controller.js</span></a><a href="./server/api/amazonCart/product.model.js.html" class="source "><span class="base_path">server / api / amazonCart / </span><span class="file_name">product.model.js</span></a><a href="./server/api/amazonCart/product.socket.js.html" class="source "><span class="base_path">server / api / amazonCart / </span><span class="file_name">product.socket.js</span></a><a href="./server/api/amazonCart/product.spec.js.html" class="source "><span class="base_path">server / api / amazonCart / </span><span class="file_name">product.spec.js</span></a><a href="./server/api/buyer/buyer.controller.js.html" class="source "><span class="base_path">server / api / buyer / </span><span class="file_name">buyer.controller.js</span></a><a href="./server/api/buyer/buyer.model.js.html" class="source "><span class="base_path">server / api / buyer / </span><span class="file_name">buyer.model.js</span></a><a href="./server/api/buyer/buyer.model.spec.js.html" class="source "><span class="base_path">server / api / buyer / </span><span class="file_name">buyer.model.spec.js</span></a><a href="./server/api/buyer/index.js.html" class="source "><span class="base_path">server / api / buyer / </span><span class="file_name">index.js</span></a><a href="./server/api/cart/cart.controller.js.html" class="source "><span class="base_path">server / api / cart / </span><span class="file_name">cart.controller.js</span></a><a href="./server/api/cart/cart.model.js.html" class="source "><span class="base_path">server / api / cart / </span><span class="file_name">cart.model.js</span></a><a href="./server/api/cart/cart.socket.js.html" class="source "><span class="base_path">server / api / cart / </span><span class="file_name">cart.socket.js</span></a><a href="./server/api/cart/cart.spec.js.html" class="source "><span class="base_path">server / api / cart / </span><span class="file_name">cart.spec.js</span></a><a href="./server/api/cart/index.js.html" class="source "><span class="base_path">server / api / cart / </span><span class="file_name">index.js</span></a><a href="./server/api/product/index.js.html" class="source "><span class="base_path">server / api / product / </span><span class="file_name">index.js</span></a><a href="./server/api/product/product.controller.js.html" class="source "><span class="base_path">server / api / product / </span><span class="file_name">product.controller.js</span></a><a href="./server/api/product/product.model.js.html" class="source "><span class="base_path">server / api / product / </span><span class="file_name">product.model.js</span></a><a href="./server/api/product/product.socket.js.html" class="source "><span class="base_path">server / api / product / </span><span class="file_name">product.socket.js</span></a><a href="./server/api/product/product.spec.js.html" class="source "><span class="base_path">server / api / product / </span><span class="file_name">product.spec.js</span></a><a href="./server/api/showroom/index.js.html" class="source "><span class="base_path">server / api / showroom / </span><span class="file_name">index.js</span></a><a href="./server/api/showroom/showroom.controller.js.html" class="source "><span class="base_path">server / api / showroom / </span><span class="file_name">showroom.controller.js</span></a><a href="./server/api/showroom/showroom.model.js.html" class="source "><span class="base_path">server / api / showroom / </span><span class="file_name">showroom.model.js</span></a><a href="./server/api/showroom/showroom.socket.js.html" class="source "><span class="base_path">server / api / showroom / </span><span class="file_name">showroom.socket.js</span></a><a href="./server/api/showroom/showroom.spec.js.html" class="source "><span class="base_path">server / api / showroom / </span><span class="file_name">showroom.spec.js</span></a><a href="./server/api/thing/index.js.html" class="source "><span class="base_path">server / api / thing / </span><span class="file_name">index.js</span></a><a href="./server/api/thing/thing.controller.js.html" class="source "><span class="base_path">server / api / thing / </span><span class="file_name">thing.controller.js</span></a><a href="./server/api/thing/thing.model.js.html" class="source "><span class="base_path">server / api / thing / </span><span class="file_name">thing.model.js</span></a><a href="./server/api/thing/thing.socket.js.html" class="source "><span class="base_path">server / api / thing / </span><span class="file_name">thing.socket.js</span></a><a href="./server/api/thing/thing.spec.js.html" class="source "><span class="base_path">server / api / thing / </span><span class="file_name">thing.spec.js</span></a><a href="./server/api/user/index.js.html" class="source "><span class="base_path">server / api / user / </span><span class="file_name">index.js</span></a><a href="./server/api/user/user.controller.js.html" class="source "><span class="base_path">server / api / user / </span><span class="file_name">user.controller.js</span></a><a href="./server/api/user/user.model.js.html" class="source "><span class="base_path">server / api / user / </span><span class="file_name">user.model.js</span></a><a href="./server/api/user/user.model.spec.js.html" class="source "><span class="base_path">server / api / user / </span><span class="file_name">user.model.spec.js</span></a><a href="./server/api/vendor/index.js.html" class="source "><span class="base_path">server / api / vendor / </span><span class="file_name">index.js</span></a><a href="./server/api/vendor/vendor.controller.js.html" class="source "><span class="base_path">server / api / vendor / </span><span class="file_name">vendor.controller.js</span></a><a href="./server/api/vendor/vendor.model.js.html" class="source "><span class="base_path">server / api / vendor / </span><span class="file_name">vendor.model.js</span></a><a href="./server/api/vendor/vendor.socket.js.html" class="source "><span class="base_path">server / api / vendor / </span><span class="file_name">vendor.socket.js</span></a><a href="./server/api/vendor/vendor.spec.js.html" class="source "><span class="base_path">server / api / vendor / </span><span class="file_name">vendor.spec.js</span></a><a href="./server/app.js.html" class="source "><span class="base_path">server / </span><span class="file_name">app.js</span></a><a href="./server/auth/auth.service.js.html" class="source "><span class="base_path">server / auth / </span><span class="file_name">auth.service.js</span></a><a href="./server/auth/facebook/index.js.html" class="source "><span class="base_path">server / auth / facebook / </span><span class="file_name">index.js</span></a><a href="./server/auth/facebook/passport.js.html" class="source "><span class="base_path">server / auth / facebook / </span><span class="file_name">passport.js</span></a><a href="./server/auth/google/index.js.html" class="source "><span class="base_path">server / auth / google / </span><span class="file_name">index.js</span></a><a href="./server/auth/google/passport.js.html" class="source "><span class="base_path">server / auth / google / </span><span class="file_name">passport.js</span></a><a href="./server/auth/index.js.html" class="source "><span class="base_path">server / auth / </span><span class="file_name">index.js</span></a><a href="./server/auth/local/index.js.html" class="source "><span class="base_path">server / auth / local / </span><span class="file_name">index.js</span></a><a href="./server/auth/local/passport.js.html" class="source "><span class="base_path">server / auth / local / </span><span class="file_name">passport.js</span></a><a href="./server/auth/twitter/index.js.html" class="source "><span class="base_path">server / auth / twitter / </span><span class="file_name">index.js</span></a><a href="./server/auth/twitter/passport.js.html" class="source "><span class="base_path">server / auth / twitter / </span><span class="file_name">passport.js</span></a><a href="./server/components/errors/index.js.html" class="source "><span class="base_path">server / components / errors / </span><span class="file_name">index.js</span></a><a href="./server/config/environment/development.js.html" class="source "><span class="base_path">server / config / environment / </span><span class="file_name">development.js</span></a><a href="./server/config/environment/index.js.html" class="source "><span class="base_path">server / config / environment / </span><span class="file_name">index.js</span></a><a href="./server/config/environment/production.js.html" class="source "><span class="base_path">server / config / environment / </span><span class="file_name">production.js</span></a><a href="./server/config/environment/test.js.html" class="source "><span class="base_path">server / config / environment / </span><span class="file_name">test.js</span></a><a href="./server/config/express.js.html" class="source "><span class="base_path">server / config / </span><span class="file_name">express.js</span></a><a href="./server/config/local.env.js.html" class="source "><span class="base_path">server / config / </span><span class="file_name">local.env.js</span></a><a href="./server/config/seed.js.html" class="source "><span class="base_path">server / config / </span><span class="file_name">seed.js</span></a><a href="./server/config/socketio.js.html" class="source "><span class="base_path">server / config / </span><span class="file_name">socketio.js</span></a><a href="./server/routes.js.html" class="source "><span class="base_path">server / </span><span class="file_name">routes.js</span></a><a href="./server.js.html" class="source "><span class="base_path">. / </span><span class="file_name">server.js</span></a></div></div></div><table cellpadding="0" cellspacing="0"><thead><tr><th class="docs"><h1>Gruntfile.js</h1><div class="filepath">./</div></th><th class="code"></th></tr></thead><tbody><tr id="section-1"><td class="docs"><div class="pilwrap"><a href="#section-1" class="pilcrow">&#182;</a></div><p>Generated on 2015-02-10 using generator-angular-fullstack 2.0.13</p>
+</td><td class="code"><div class="highlight"><pre><span class="s1">&#39;use strict&#39;</span><span class="p">;</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">grunt</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">localConfig</span><span class="p">;</span>
+  <span class="k">try</span> <span class="p">{</span>
+    <span class="nx">localConfig</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;./server/config/local.env.js&#39;</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">catch</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">localConfig</span> <span class="o">=</span> <span class="p">{};</span>
+  <span class="p">}</span></pre></div></td></tr><tr id="section-2"><td class="docs"><div class="pilwrap"><a href="#section-2" class="pilcrow">&#182;</a></div><p>Load grunt tasks automatically, when needed</p>
+</td><td class="code"><div class="highlight"><pre>  <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;jit-grunt&#39;</span><span class="p">)(</span><span class="nx">grunt</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">express</span><span class="o">:</span> <span class="s1">&#39;grunt-express-server&#39;</span><span class="p">,</span>
+    <span class="nx">useminPrepare</span><span class="o">:</span> <span class="s1">&#39;grunt-usemin&#39;</span><span class="p">,</span>
+    <span class="nx">ngtemplates</span><span class="o">:</span> <span class="s1">&#39;grunt-angular-templates&#39;</span><span class="p">,</span>
+    <span class="nx">cdnify</span><span class="o">:</span> <span class="s1">&#39;grunt-google-cdn&#39;</span><span class="p">,</span>
+    <span class="nx">protractor</span><span class="o">:</span> <span class="s1">&#39;grunt-protractor-runner&#39;</span><span class="p">,</span>
+    <span class="nx">injector</span><span class="o">:</span> <span class="s1">&#39;grunt-asset-injector&#39;</span><span class="p">,</span>
+    <span class="nx">buildcontrol</span><span class="o">:</span> <span class="s1">&#39;grunt-build-control&#39;</span>
+  <span class="p">});</span></pre></div></td></tr><tr id="section-3"><td class="docs"><div class="pilwrap"><a href="#section-3" class="pilcrow">&#182;</a></div><p>Time how long tasks take. Can help when optimizing build times</p>
+</td><td class="code"><div class="highlight"><pre>  <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;time-grunt&#39;</span><span class="p">)(</span><span class="nx">grunt</span><span class="p">);</span></pre></div></td></tr><tr id="section-4"><td class="docs"><div class="pilwrap"><a href="#section-4" class="pilcrow">&#182;</a></div><p>Define the configuration for all the tasks</p>
+</td><td class="code"><div class="highlight"><pre>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">({</span></pre></div></td></tr><tr id="section-5"><td class="docs"><div class="pilwrap"><a href="#section-5" class="pilcrow">&#182;</a></div><p>Project settings</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">pkg</span><span class="o">:</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">file</span><span class="p">.</span><span class="nx">readJSON</span><span class="p">(</span><span class="s1">&#39;package.json&#39;</span><span class="p">),</span>
+    <span class="nx">yeoman</span><span class="o">:</span> <span class="p">{</span></pre></div></td></tr><tr id="section-6"><td class="docs"><div class="pilwrap"><a href="#section-6" class="pilcrow">&#182;</a></div><p>configurable paths</p>
+</td><td class="code"><div class="highlight"><pre>      <span class="nx">client</span><span class="o">:</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;./bower.json&#39;</span><span class="p">).</span><span class="nx">appPath</span> <span class="o">||</span> <span class="s1">&#39;client&#39;</span><span class="p">,</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="s1">&#39;dist&#39;</span>
+    <span class="p">},</span>
+    </pre></div></td></tr><tr id="section-7"><td class="docs"><div class="pilwrap"><a href="#section-7" class="pilcrow">&#182;</a></div><p>Automatically generate documentation    </p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">docco_husky</span> <span class="o">:</span> <span class="p">{</span>
+      <span class="s1">&#39;Sphereable&#39;</span><span class="o">:</span><span class="s1">&#39;testing&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;files&#39;</span><span class="o">:</span><span class="p">[</span><span class="s1">&#39;client/../*.js&#39;</span><span class="p">]</span>
+    <span class="p">},</span>
+
+    <span class="nx">express</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">port</span><span class="o">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">PORT</span> <span class="o">||</span> <span class="mi">4430</span>
+      <span class="p">},</span>
+      <span class="nx">dev</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">script</span><span class="o">:</span> <span class="s1">&#39;server.js&#39;</span><span class="p">,</span>
+          <span class="nx">debug</span><span class="o">:</span> <span class="kc">true</span>
+        <span class="p">}</span>
+      <span class="p">},</span>
+      <span class="nx">prod</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">script</span><span class="o">:</span> <span class="s1">&#39;dist/server/app.js&#39;</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="nx">open</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">server</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">url</span><span class="o">:</span> <span class="s1">&#39;https://localhost:&lt;%= express.options.port %&gt;&#39;</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="nx">watch</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">injectJS</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;!&lt;%= yeoman.client %&gt;/{app,components}/**/*.spec.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;!&lt;%= yeoman.client %&gt;/{app,components}/**/*.mock.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;!&lt;%= yeoman.client %&gt;/app/app.js&#39;</span><span class="p">],</span>
+        <span class="nx">tasks</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;injector:scripts&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">injectCss</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.css&#39;</span>
+        <span class="p">],</span>
+        <span class="nx">tasks</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;injector:css&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">mochaTest</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;server/**/*.spec.js&#39;</span><span class="p">],</span>
+        <span class="nx">tasks</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;env:test&#39;</span><span class="p">,</span> <span class="s1">&#39;mochaTest&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">jsTest</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.spec.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.mock.js&#39;</span>
+        <span class="p">],</span>
+        <span class="nx">tasks</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;newer:jshint:all&#39;</span><span class="p">,</span> <span class="s1">&#39;karma&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">gruntfile</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;Gruntfile.js&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">livereload</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.css&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.html&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;!{.tmp,&lt;%= yeoman.client %&gt;}{app,components}/**/*.spec.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;!{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.mock.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/assets/images/{,*//*}*.{png,jpg,jpeg,gif,webp,svg}&#39;</span>
+        <span class="p">],</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">livereload</span><span class="o">:</span> <span class="kc">true</span>
+        <span class="p">}</span>
+      <span class="p">},</span>
+      <span class="nx">express</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;server/**/*.{js,json}&#39;</span><span class="p">,</span>
+        <span class="p">],</span></pre></div></td></tr><tr id="section-8"><td class="docs"><div class="pilwrap"><a href="#section-8" class="pilcrow">&#182;</a></div><p>Added docco_husky</p>
+</td><td class="code"><div class="highlight"><pre>        <span class="nx">tasks</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;express:dev&#39;</span><span class="p">,</span> <span class="s1">&#39;wait&#39;</span><span class="p">,</span> <span class="s1">&#39;docco_husky&#39;</span><span class="p">],</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">livereload</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">nospawn</span><span class="o">:</span> <span class="kc">true</span> <span class="c1">//Without this option specified express won&#39;t be reloaded</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-9"><td class="docs"><div class="pilwrap"><a href="#section-9" class="pilcrow">&#182;</a></div><p>Make sure code styles are up to par and there are no obvious mistakes</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">jshint</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">jshintrc</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;/.jshintrc&#39;</span><span class="p">,</span>
+        <span class="nx">reporter</span><span class="o">:</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;jshint-stylish&#39;</span><span class="p">)</span>
+      <span class="p">},</span>
+      <span class="nx">server</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">jshintrc</span><span class="o">:</span> <span class="s1">&#39;server/.jshintrc&#39;</span>
+        <span class="p">},</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;server/**/*.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;!server/**/*.spec.js&#39;</span>
+        <span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">serverTest</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">jshintrc</span><span class="o">:</span> <span class="s1">&#39;server/.jshintrc-spec&#39;</span>
+        <span class="p">},</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;server/**/*.spec.js&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">all</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.js&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;!&lt;%= yeoman.client %&gt;/{app,components}/**/*.spec.js&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;!&lt;%= yeoman.client %&gt;/{app,components}/**/*.mock.js&#39;</span>
+      <span class="p">],</span>
+      <span class="nx">test</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.spec.js&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.mock.js&#39;</span>
+        <span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-10"><td class="docs"><div class="pilwrap"><a href="#section-10" class="pilcrow">&#182;</a></div><p>Empties folders to start fresh</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">clean</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[{</span>
+          <span class="nx">dot</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="p">[</span>
+            <span class="s1">&#39;.tmp&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/*&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;!&lt;%= yeoman.dist %&gt;/.git*&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;!&lt;%= yeoman.dist %&gt;/.openshift&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;!&lt;%= yeoman.dist %&gt;/Procfile&#39;</span>
+          <span class="p">]</span>
+        <span class="p">}]</span>
+      <span class="p">},</span>
+      <span class="nx">server</span><span class="o">:</span> <span class="s1">&#39;.tmp&#39;</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-11"><td class="docs"><div class="pilwrap"><a href="#section-11" class="pilcrow">&#182;</a></div><p>Add vendor prefixed styles</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">autoprefixer</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">browsers</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;last 1 version&#39;</span><span class="p">]</span>
+      <span class="p">},</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;.tmp/&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="s1">&#39;{,*/}*.css&#39;</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;.tmp/&#39;</span>
+        <span class="p">}]</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-12"><td class="docs"><div class="pilwrap"><a href="#section-12" class="pilcrow">&#182;</a></div><p>Debugging with node inspector</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="s1">&#39;node-inspector&#39;</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">custom</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="s1">&#39;web-host&#39;</span><span class="o">:</span> <span class="s1">&#39;localhost&#39;</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-13"><td class="docs"><div class="pilwrap"><a href="#section-13" class="pilcrow">&#182;</a></div><p>Use nodemon to run server in debug mode with an initial breakpoint</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">nodemon</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">debug</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">script</span><span class="o">:</span> <span class="s1">&#39;server/app.js&#39;</span><span class="p">,</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">nodeArgs</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;--debug-brk&#39;</span><span class="p">],</span>
+          <span class="nx">env</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">PORT</span><span class="o">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">PORT</span> <span class="o">||</span> <span class="mi">4430</span>
+          <span class="p">},</span>
+          <span class="nx">callback</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">nodemon</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">nodemon</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;log&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+              <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">colour</span><span class="p">);</span>
+            <span class="p">});</span></pre></div></td></tr><tr id="section-14"><td class="docs"><div class="pilwrap"><a href="#section-14" class="pilcrow">&#182;</a></div><p>opens browser on initial server start</p>
+</td><td class="code"><div class="highlight"><pre>            <span class="nx">nodemon</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;config:update&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+              <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+                <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;open&#39;</span><span class="p">)(</span><span class="s1">&#39;https://localhost:8080/debug?port=5858&#39;</span><span class="p">);</span>
+              <span class="p">},</span> <span class="mi">500</span><span class="p">);</span>
+            <span class="p">});</span>
+          <span class="p">}</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-15"><td class="docs"><div class="pilwrap"><a href="#section-15" class="pilcrow">&#182;</a></div><p>Automatically inject Bower components into the app</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">wiredep</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">target</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;/index.html&#39;</span><span class="p">,</span>
+        <span class="nx">ignorePath</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;/&#39;</span><span class="p">,</span>
+        <span class="nx">exclude</span><span class="o">:</span> <span class="p">[</span><span class="sr">/bootstrap-sass-official/</span><span class="p">,</span> <span class="sr">/bootstrap.js/</span><span class="p">,</span> <span class="s1">&#39;/json3/&#39;</span><span class="p">,</span> <span class="s1">&#39;/es5-shim/&#39;</span><span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-16"><td class="docs"><div class="pilwrap"><a href="#section-16" class="pilcrow">&#182;</a></div><p>Renames files for browser caching purposes</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">rev</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="p">[</span>
+            <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/{,*/}*.js&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/{,*/}*.css&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/assets/fonts/*&#39;</span>
+          <span class="p">]</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-17"><td class="docs"><div class="pilwrap"><a href="#section-17" class="pilcrow">&#182;</a></div><p>Reads HTML for usemin blocks to enable smart builds that automatically
+concat, minify and revision files. Creates configurations in memory so
+additional tasks can operate on them</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">useminPrepare</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">html</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;&lt;%= yeoman.client %&gt;/index.html&#39;</span><span class="p">],</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public&#39;</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-18"><td class="docs"><div class="pilwrap"><a href="#section-18" class="pilcrow">&#182;</a></div><p>Performs rewrites based on rev and the useminPrepare configuration</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">usemin</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">html</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/{,*/}*.html&#39;</span><span class="p">],</span>
+      <span class="nx">css</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/{,*/}*.css&#39;</span><span class="p">],</span>
+      <span class="nx">js</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/{,*/}*.js&#39;</span><span class="p">],</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">assetsDirs</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/assets/images&#39;</span>
+        <span class="p">],</span></pre></div></td></tr><tr id="section-19"><td class="docs"><div class="pilwrap"><a href="#section-19" class="pilcrow">&#182;</a></div><p>This is so we update image references in our ng-templates</p>
+</td><td class="code"><div class="highlight"><pre>        <span class="nx">patterns</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">js</span><span class="o">:</span> <span class="p">[</span>
+            <span class="p">[</span><span class="sr">/(assets\/images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg))/gm</span><span class="p">,</span> <span class="s1">&#39;Update the JS to reference our revved images&#39;</span><span class="p">]</span>
+          <span class="p">]</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-20"><td class="docs"><div class="pilwrap"><a href="#section-20" class="pilcrow">&#182;</a></div><p>The following *-min tasks produce minified files in the dist folder</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">imagemin</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;/assets/images&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="s1">&#39;{,*/}*.{png,jpg,jpeg,gif}&#39;</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/assets/images&#39;</span>
+        <span class="p">}]</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+
+    <span class="nx">svgmin</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;/assets/images&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="s1">&#39;{,*/}*.svg&#39;</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/assets/images&#39;</span>
+        <span class="p">}]</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-21"><td class="docs"><div class="pilwrap"><a href="#section-21" class="pilcrow">&#182;</a></div><p>Allow the use of non-minsafe AngularJS files. Automatically makes it
+minsafe compatible so Uglify does not destroy the ng references</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">ngAnnotate</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;.tmp/concat&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="s1">&#39;*/**.js&#39;</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;.tmp/concat&#39;</span>
+        <span class="p">}]</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-22"><td class="docs"><div class="pilwrap"><a href="#section-22" class="pilcrow">&#182;</a></div><p>Package all the html partials into a single javascript payload</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">ngtemplates</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span></pre></div></td></tr><tr id="section-23"><td class="docs"><div class="pilwrap"><a href="#section-23" class="pilcrow">&#182;</a></div><p>This should be the name of your apps angular module</p>
+</td><td class="code"><div class="highlight"><pre>        <span class="nx">module</span><span class="o">:</span> <span class="s1">&#39;thesisApp&#39;</span><span class="p">,</span>
+        <span class="nx">htmlmin</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">collapseBooleanAttributes</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">collapseWhitespace</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">removeAttributeQuotes</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">removeEmptyAttributes</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">removeRedundantAttributes</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">removeScriptTypeAttributes</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">removeStyleLinkTypeAttributes</span><span class="o">:</span> <span class="kc">true</span>
+        <span class="p">},</span>
+        <span class="nx">usemin</span><span class="o">:</span> <span class="s1">&#39;app/app.js&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">main</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;&#39;</span><span class="p">,</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;{app,components}/**/*.html&#39;</span><span class="p">],</span>
+        <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;.tmp/templates.js&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">tmp</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;.tmp&#39;</span><span class="p">,</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;{app,components}/**/*.html&#39;</span><span class="p">],</span>
+        <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;.tmp/tmp-templates.js&#39;</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-24"><td class="docs"><div class="pilwrap"><a href="#section-24" class="pilcrow">&#182;</a></div><p>Replace Google CDN references</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">cdnify</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">html</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/*.html&#39;</span><span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-25"><td class="docs"><div class="pilwrap"><a href="#section-25" class="pilcrow">&#182;</a></div><p>Copies remaining files to places other tasks can use</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">copy</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">[{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">dot</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;&#39;</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="p">[</span>
+            <span class="s1">&#39;*.{ico,png,txt}&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;.htaccess&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;bower_components/**/*&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;assets/images/{,*/}*.{webp}&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;assets/fonts/**/*&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;index.html&#39;</span>
+          <span class="p">]</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;.tmp/images&#39;</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.dist %&gt;/public/assets/images&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;generated/*&#39;</span><span class="p">]</span>
+        <span class="p">},</span> <span class="p">{</span>
+          <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.dist %&gt;&#39;</span><span class="p">,</span>
+          <span class="nx">src</span><span class="o">:</span> <span class="p">[</span>
+            <span class="s1">&#39;package.json&#39;</span><span class="p">,</span>
+            <span class="s1">&#39;server/**/*&#39;</span>
+          <span class="p">]</span>
+        <span class="p">}]</span>
+      <span class="p">},</span>
+      <span class="nx">styles</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">expand</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">cwd</span><span class="o">:</span> <span class="s1">&#39;&lt;%= yeoman.client %&gt;&#39;</span><span class="p">,</span>
+        <span class="nx">dest</span><span class="o">:</span> <span class="s1">&#39;.tmp/&#39;</span><span class="p">,</span>
+        <span class="nx">src</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;{app,components}/**/*.css&#39;</span><span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+
+    <span class="nx">buildcontrol</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">dir</span><span class="o">:</span> <span class="s1">&#39;dist&#39;</span><span class="p">,</span>
+        <span class="nx">commit</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">push</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+        <span class="nx">connectCommits</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="nx">message</span><span class="o">:</span> <span class="s1">&#39;Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">heroku</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">remote</span><span class="o">:</span> <span class="s1">&#39;heroku&#39;</span><span class="p">,</span>
+          <span class="nx">branch</span><span class="o">:</span> <span class="s1">&#39;master&#39;</span>
+        <span class="p">}</span>
+      <span class="p">},</span>
+      <span class="nx">openshift</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">remote</span><span class="o">:</span> <span class="s1">&#39;openshift&#39;</span><span class="p">,</span>
+          <span class="nx">branch</span><span class="o">:</span> <span class="s1">&#39;master&#39;</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-26"><td class="docs"><div class="pilwrap"><a href="#section-26" class="pilcrow">&#182;</a></div><p>Run some tasks in parallel to speed up the build process</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">concurrent</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">server</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">],</span>
+      <span class="nx">test</span><span class="o">:</span> <span class="p">[</span>
+      <span class="p">],</span>
+      <span class="nx">debug</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">tasks</span><span class="o">:</span> <span class="p">[</span>
+          <span class="s1">&#39;nodemon&#39;</span><span class="p">,</span>
+          <span class="s1">&#39;node-inspector&#39;</span>
+        <span class="p">],</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">logConcurrentOutput</span><span class="o">:</span> <span class="kc">true</span>
+        <span class="p">}</span>
+      <span class="p">},</span>
+      <span class="nx">dist</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s1">&#39;imagemin&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;svgmin&#39;</span>
+      <span class="p">]</span>
+    <span class="p">},</span></pre></div></td></tr><tr id="section-27"><td class="docs"><div class="pilwrap"><a href="#section-27" class="pilcrow">&#182;</a></div><p>Test settings</p>
+</td><td class="code"><div class="highlight"><pre>    <span class="nx">karma</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">unit</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">configFile</span><span class="o">:</span> <span class="s1">&#39;karma.conf.js&#39;</span><span class="p">,</span>
+        <span class="nx">singleRun</span><span class="o">:</span> <span class="kc">true</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+
+    <span class="nx">mochaTest</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">reporter</span><span class="o">:</span> <span class="s1">&#39;spec&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">src</span><span class="o">:</span> <span class="p">[</span><span class="s1">&#39;server/**/*.spec.js&#39;</span><span class="p">]</span>
+    <span class="p">},</span>
+
+    <span class="nx">protractor</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">configFile</span><span class="o">:</span> <span class="s1">&#39;protractor.conf.js&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">chrome</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">args</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">browser</span><span class="o">:</span> <span class="s1">&#39;chrome&#39;</span>
+          <span class="p">}</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+
+    <span class="nx">env</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">test</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">NODE_ENV</span><span class="o">:</span> <span class="s1">&#39;test&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">prod</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">NODE_ENV</span><span class="o">:</span> <span class="s1">&#39;production&#39;</span>
+      <span class="p">},</span>
+      <span class="nx">all</span><span class="o">:</span> <span class="nx">localConfig</span>
+    <span class="p">},</span>
+
+    <span class="nx">injector</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+
+      <span class="p">},</span></pre></div></td></tr><tr id="section-28"><td class="docs"><div class="pilwrap"><a href="#section-28" class="pilcrow">&#182;</a></div><p>Inject application script files into index.html (doesn't include bower)</p>
+</td><td class="code"><div class="highlight"><pre>      <span class="nx">scripts</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">transform</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">filePath</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">filePath</span> <span class="o">=</span> <span class="nx">filePath</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s1">&#39;/client/&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+            <span class="nx">filePath</span> <span class="o">=</span> <span class="nx">filePath</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s1">&#39;/.tmp/&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+            <span class="k">return</span> <span class="s1">&#39;&lt;script src=&quot;&#39;</span> <span class="o">+</span> <span class="nx">filePath</span> <span class="o">+</span> <span class="s1">&#39;&quot;&gt;&lt;/script&gt;&#39;</span><span class="p">;</span>
+          <span class="p">},</span>
+          <span class="nx">starttag</span><span class="o">:</span> <span class="s1">&#39;&lt;!-- injector:js --&gt;&#39;</span><span class="p">,</span>
+          <span class="nx">endtag</span><span class="o">:</span> <span class="s1">&#39;&lt;!-- endinjector --&gt;&#39;</span>
+        <span class="p">},</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">{</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/index.html&#39;</span><span class="o">:</span> <span class="p">[</span>
+              <span class="p">[</span><span class="s1">&#39;{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.js&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;!{.tmp,&lt;%= yeoman.client %&gt;}/app/app.js&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;!{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.spec.js&#39;</span><span class="p">,</span>
+               <span class="s1">&#39;!{.tmp,&lt;%= yeoman.client %&gt;}/{app,components}/**/*.mock.js&#39;</span><span class="p">]</span>
+            <span class="p">]</span>
+        <span class="p">}</span>
+      <span class="p">},</span></pre></div></td></tr><tr id="section-29"><td class="docs"><div class="pilwrap"><a href="#section-29" class="pilcrow">&#182;</a></div><p>Inject component css into index.html</p>
+</td><td class="code"><div class="highlight"><pre>      <span class="nx">css</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+          <span class="nx">transform</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">filePath</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">filePath</span> <span class="o">=</span> <span class="nx">filePath</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s1">&#39;/client/&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+            <span class="nx">filePath</span> <span class="o">=</span> <span class="nx">filePath</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s1">&#39;/.tmp/&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+            <span class="k">return</span> <span class="s1">&#39;&lt;link rel=&quot;stylesheet&quot; href=&quot;&#39;</span> <span class="o">+</span> <span class="nx">filePath</span> <span class="o">+</span> <span class="s1">&#39;&quot;&gt;&#39;</span><span class="p">;</span>
+          <span class="p">},</span>
+          <span class="nx">starttag</span><span class="o">:</span> <span class="s1">&#39;&lt;!-- injector:css --&gt;&#39;</span><span class="p">,</span>
+          <span class="nx">endtag</span><span class="o">:</span> <span class="s1">&#39;&lt;!-- endinjector --&gt;&#39;</span>
+        <span class="p">},</span>
+        <span class="nx">files</span><span class="o">:</span> <span class="p">{</span>
+          <span class="s1">&#39;&lt;%= yeoman.client %&gt;/index.html&#39;</span><span class="o">:</span> <span class="p">[</span>
+            <span class="s1">&#39;&lt;%= yeoman.client %&gt;/{app,components}/**/*.css&#39;</span>
+          <span class="p">]</span>
+        <span class="p">}</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+  <span class="p">});</span></pre></div></td></tr><tr id="section-30"><td class="docs"><div class="pilwrap"><a href="#section-30" class="pilcrow">&#182;</a></div><p>Automatically generate documentation</p>
+</td><td class="code"><div class="highlight"><pre>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">loadNpmTasks</span><span class="p">(</span><span class="s1">&#39;grunt-docco-husky&#39;</span><span class="p">);</span></pre></div></td></tr><tr id="section-31"><td class="docs"><div class="pilwrap"><a href="#section-31" class="pilcrow">&#182;</a></div><p>Used for delaying livereload until after server has restarted</p>
+</td><td class="code"><div class="highlight"><pre>  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;wait&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">grunt</span><span class="p">.</span><span class="nx">log</span><span class="p">.</span><span class="nx">ok</span><span class="p">(</span><span class="s1">&#39;Waiting for server reload...&#39;</span><span class="p">);</span>
+
+    <span class="kd">var</span> <span class="nx">done</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">async</span><span class="p">();</span>
+
+    <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+      <span class="nx">grunt</span><span class="p">.</span><span class="nx">log</span><span class="p">.</span><span class="nx">writeln</span><span class="p">(</span><span class="s1">&#39;Done waiting!&#39;</span><span class="p">);</span>
+      <span class="nx">done</span><span class="p">();</span>
+    <span class="p">},</span> <span class="mi">1500</span><span class="p">);</span>
+  <span class="p">});</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;express-keepalive&#39;</span><span class="p">,</span> <span class="s1">&#39;Keep grunt running&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">async</span><span class="p">();</span>
+  <span class="p">});</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;serve&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">target</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;dist&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;env:all&#39;</span><span class="p">,</span> <span class="s1">&#39;env:prod&#39;</span><span class="p">,</span> <span class="s1">&#39;express:prod&#39;</span><span class="p">,</span> <span class="s1">&#39;wait&#39;</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;express-keepalive&#39;</span><span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;debug&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+        <span class="s1">&#39;clean:server&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;concurrent:server&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;wiredep&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;concurrent:debug&#39;</span>
+      <span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+      <span class="s1">&#39;clean:server&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;concurrent:server&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;wiredep&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;express:dev&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;wait&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;open&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;watch&#39;</span>
+    <span class="p">]);</span>
+  <span class="p">});</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;serveHTTP&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">target</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;dist&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="s1">&#39;env:all&#39;</span><span class="p">,</span> <span class="s1">&#39;env:prod&#39;</span><span class="p">,</span> <span class="s1">&#39;express:prod&#39;</span><span class="p">,</span> <span class="s1">&#39;wait&#39;</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;express-keepalive&#39;</span><span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;debug&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+        <span class="s1">&#39;clean:server&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;concurrent:server&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;wiredep&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;concurrent:debug&#39;</span>
+      <span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+      <span class="s1">&#39;clean:server&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;concurrent:server&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;wiredep&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;express:dev&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;wait&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;open&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;watch&#39;</span>
+    <span class="p">]);</span>
+  <span class="p">});</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;server&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">grunt</span><span class="p">.</span><span class="nx">log</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="s1">&#39;The `server` task has been deprecated. Use `grunt serve` to start a server.&#39;</span><span class="p">);</span>
+    <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span><span class="s1">&#39;serve&#39;</span><span class="p">]);</span>
+  <span class="p">});</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">target</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;server&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+        <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;env:test&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;mochaTest&#39;</span>
+      <span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;client&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+        <span class="s1">&#39;clean:server&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;concurrent:test&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;karma&#39;</span>
+      <span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">target</span> <span class="o">===</span> <span class="s1">&#39;e2e&#39;</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+        <span class="s1">&#39;clean:server&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;env:all&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;env:test&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;concurrent:test&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;wiredep&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;express:dev&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;protractor&#39;</span>
+      <span class="p">]);</span>
+    <span class="p">}</span>
+
+    <span class="k">else</span> <span class="nx">grunt</span><span class="p">.</span><span class="nx">task</span><span class="p">.</span><span class="nx">run</span><span class="p">([</span>
+      <span class="s1">&#39;test:server&#39;</span><span class="p">,</span>
+      <span class="s1">&#39;test:client&#39;</span>
+    <span class="p">]);</span>
+  <span class="p">});</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;build&#39;</span><span class="p">,</span> <span class="p">[</span>
+    <span class="s1">&#39;clean:dist&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;concurrent:dist&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;injector&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;wiredep&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;useminPrepare&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;autoprefixer&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ngtemplates&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;concat&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ngAnnotate&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;copy:dist&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;cdnify&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;cssmin&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;uglify&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;rev&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;usemin&#39;</span>
+  <span class="p">]);</span>
+
+  <span class="nx">grunt</span><span class="p">.</span><span class="nx">registerTask</span><span class="p">(</span><span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="p">[</span>
+    <span class="s1">&#39;newer:jshint&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;test&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;build&#39;</span>
+  <span class="p">]);</span>
+<span class="p">};</span>
+
+</pre></div></td></tr></tbody></table><div id="generated">generated Thu Feb 19 2015 15:13:29 GMT-0800 (PST)  </div><div id="projectname"><a href="./index.html">thesisApp</a></div></div></body></html>
